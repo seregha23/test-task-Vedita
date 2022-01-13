@@ -1,0 +1,20 @@
+tr,
+td{
+    transition: .5s;
+}
+tr.hidden,
+.hidden td{
+    opacity: 0;
+    height: 0;
+    line-height: 0;
+    padding: 0;
+    overflow: hidden;
+    border:0;
+    font-size: 0;
+    z-index: -10;
+}
+.hidden a {
+    padding: 0;
+    height: 0;
+    border: 0;
+}

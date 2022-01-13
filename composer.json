@@ -1,0 +1,17 @@
+{
+    "name": "sergey/test-task-1",
+    "authors": [
+        {
+            "name": "seregha23",
+            "email": "seregha23@yandex.ru"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
